@@ -1,3 +1,1 @@
-node {
-    print(Jenkins.instance.getItemByFullName('CNOACCESS/test_project'))
-}
+println("I sniffed ${thisjob.getParent().getItems()}!");
