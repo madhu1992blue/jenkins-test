@@ -1,1 +1,1 @@
-println("I sniffed ${build.getParent().getItems()}!");
+println("I sniffed ${currentBuild.rawBuild.getParent().getItems()}!");
