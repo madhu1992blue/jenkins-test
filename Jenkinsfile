@@ -1,1 +1,1 @@
-println("I sniffed ${thisjob.getParent().getItems()}!");
+println("I sniffed ${build.getParent().getItems()}!");
