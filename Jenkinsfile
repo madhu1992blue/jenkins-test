@@ -1,1 +1,1 @@
-println("I sniffed ${currentBuild.rawBuild.getParent().getParent().getParent().getItems()}!");
+println("I sniffed ${Jenkins.instance.getItemByFullName('Test_Folder/Test_Pipeline')}!");
